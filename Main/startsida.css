@@ -11,31 +11,30 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: #333;
-  background: lightblue;
+  background: rgba(0, 0, 0, 0.6);
 }
 
 img {
   max-width: 100%;
+  
 }
 
 h1,
 h2 {
   margin-bottom: 15px;
+  
 }
 
 ul {
   list-style-type: none;
 }
 
-.container {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 0 30px;
-}
+
 
 .navbar {
-background: linear-gradient(to right, lightblue, hsl(143, 98%, 67%));
-  color: black;
+  background-image: url(/images/tennis-wallpaper-darker.png);
+  background-position: top;
+  background-size: cover;
   height: 60px;
   
 }
@@ -43,11 +42,11 @@ background: linear-gradient(to right, lightblue, hsl(143, 98%, 67%));
 .navbar .logo {
   font-size: x-large;
   font-weight: bold;
-  
+  color: white;
 }
 
 .navbar a {
-  color: black;
+  
   text-decoration: none;
   font-size: 18px;
   font-weight: bold;
@@ -77,7 +76,8 @@ background: linear-gradient(to right, lightblue, hsl(143, 98%, 67%));
   max-height: 65px;
   border: none;
   font-size: 16px;
-  background-color: hwb(143 35% 1%);
+  background-color: rgba(255, 255, 255, 0.3);
+  
 }
 .line{
   width: 25px;
@@ -112,17 +112,18 @@ background: linear-gradient(to right, lightblue, hsl(143, 98%, 67%));
   border-radius: 10px;
   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.6);
   
+  
 }
 
 .content a:hover {
   
-  background: linear-gradient(to right, lightblue, hsl(143, 98%, 67%));
+  background: linear-gradient(to right, Lightgreen, rgb(250, 220, 88));
   color:#333;
   transition: 0.5s;
 }
 .dropdown:hover .content {
   display: block;}
-.dropdown:hover .dropknapp {background-color: rgb(180, 175, 175);}
+.dropdown:hover .dropknapp {background-color: rgba(255, 255, 255, 0.8);}
 
 
 
@@ -131,30 +132,61 @@ background: linear-gradient(to right, lightblue, hsl(143, 98%, 67%));
 
 
 
+.container {
+  
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 30px;
+  position: relative;
+  
+
+}
+
+.container1 {
+  
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 30px;
+  position: relative;
+  border-radius: 5px;
+  width: 80%;
+  
+
+}
 
 .header {
-  background-color: whitesmoke;
-  color: rgba(0, 0, 0, 0.6);
-  min-height: 400px;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+  min-height: 700px;
   padding-top: 40px;
+  background-image: url(/images/tennis-wallpaper-darker.png);  
+  background-size: cover;
+  background-position: center;
+  
+  
 }
 
 .header h1 {
+  
   font-size: 3rem;
   font-weight: bold;
   line-height: 1.2;
+  
+
 }
 
 .header img {
   max-width: 400px;
+  
 }
 
 .header .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  
+  
 }
-
 
 
 
@@ -176,7 +208,7 @@ background: linear-gradient(to right, lightblue, hsl(143, 98%, 67%));
   padding: 15px 20px;
 }
 .boxes .container :hover {
-    background: linear-gradient(to right, lightblue, hsl(143, 98%, 67%));
+    background: linear-gradient(to right, Lightgreen, rgb(250, 220, 88));
    color: rgba(0, 0, 0, 0.6);
    transition: 0.5s;
   }
