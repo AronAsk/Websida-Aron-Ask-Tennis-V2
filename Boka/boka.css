@@ -188,6 +188,73 @@ ul {
   
 }
 
+/*-------------------------------------Booking Form-------------------------------*/
+
+.header div{
+  margin: 10px 10px;
+  width: 300px;
+  display: inline-block;
+}
+.header div input {
+  width: 100%;
+ 
+  background: none;
+  border: 3px solid white;;
+  font-size: 20px;
+  color: #fff;
+  outline: none;
+  padding: 3px 0 3px 10px;
+  margin-top: 10px;
+}
+.header div select{
+  width: 104%;
+  background: none;
+  border: 3px solid white;;
+  font-size: 20px;
+  color: #fff;
+  outline: none;
+  padding: 3px 0 3px 10px;
+  margin-top: 10px;
+}
+.header div span{
+  width: 100%;
+  color: #fff;
+  font-size: 25px;
+  
+}
+
+#submit{
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+}
+#submit input{
+  
+  width: 200px;
+  background-color: whitesmoke !important;
+  color: black !important;
+  transition: all .3s;
+  
+}
+#submit input:hover{
+  
+  width: 200px;
+  background-color: black !important;
+  color: #fff !important;
+}
+#submit input:active{
+  font-size: 19px;
+  background-color: rgb(46, 20, 5) !important;
+  color: #fff !important;
+}
+
+
+@media screen and (max-width:710px) {
+  .main-form{
+      text-align: center;
+  }
+}
+
 
 
 

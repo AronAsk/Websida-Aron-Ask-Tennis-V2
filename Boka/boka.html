@@ -33,19 +33,55 @@
   </nav>
 
   <header class="header">
-    
+    <!--Main Content-->
     <div class="container1">
-      <div>
-        <h1>Tennis</h1>
-        <p>
-          <h4></h4>Allt om Tennis: <br>
-        </p>
-        <p>
-          Boka sidan
-        </p>
+      <div class="form">
+        <div class="form-text">
+            <h1><span><img src="art-1.png" alt=""></span>Boka här! <span><img src="art-1.png" alt=""></span></h1>
+            <p>Här kan du boka!</p>
+        </div>
+        <div class="main-form">
+            <form action="index.php" method="get">
+                <div>
+                    <span>Namn</span>
+                    <input type="text" name="name" id="name" placeholder="Skriv ditt namn här" required>
+                </div>
+                <div>
+                    <span>E-mail</span>
+                    <input type="email" name="name" id="name" placeholder="Skriv din mail här" required> 
+                </div>
+                <div>
+                    <!-- <---this is the select option--->
+                    <span>Val av bana</span>
+                    <select name="people" id="people" required>
+                        <option value=""><-----Bana-----></option>
+                        <option value="1">Standard</option>
+                        <option value="2">Dubbel</option>
+                        <option value="3">Gräsbana</option>
+                        <option value="4">innomhusbana</option>
+                    </select>
+                    <!-- <---this is the select option--->
+                </div>
+                <div>
+                    <span>Vilken tid <br> (ex: 16:00)</span>
+                    <input type="text" name="time" id="time" placeholder="00:00 - 24:00" required>
+                </div>
+                <div>
+                    <span>Datum</span>
+                    <input type="date" name="date" id="date" placeholder="date" required>
+                </div>
+                <div>
+                    <span>Mobiltelefon</span>
+                    <input type="number" name="number" id="number" placeholder="07x xxx xx xx" required>
+                </div>
+                <div id="submit">
+                    <input type="submit" value="Skicka" id="submit">
+                </div>
 
 
-      </div>
+            </form>
+        </div>
+    </div>
       <!-- Här -->
 <!--
   all mid page content här
