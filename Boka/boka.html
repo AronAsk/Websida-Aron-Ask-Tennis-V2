@@ -37,28 +37,28 @@
     <div class="container1">
       <div class="form">
         <div class="form-text">
-            <h1><span><img src="art-1.png" alt=""></span>Boka här! <span><img src="art-1.png" alt=""></span></h1>
+            <!-- <h1><span><img src="art-1.png" alt=""></span>Boka här! <span><img src="art-1.png" alt=""></span></h1> -->
             <p>Här kan du boka!</p>
         </div>
         <div class="main-form">
-            <form action="index.php" method="get">
+            <form class="bokningformular" id="bokningformular">
                 <div>
                     <span>Namn</span>
-                    <input type="text" name="name" id="name" placeholder="Skriv ditt namn här" required>
+                    <input type="text" class="guestname" name="guestname" id="guestname" placeholder="Skriv ditt namn här" required>
                 </div>
                 <div>
                     <span>E-mail</span>
-                    <input type="email" name="name" id="name" placeholder="Skriv din mail här" required> 
+                    <input type="email" name="mail" id="mail" placeholder="Skriv din mail här" required> 
                 </div>
                 <div>
                     <!-- <---this is the select option--->
                     <span>Val av bana</span>
-                    <select name="people" id="people" required>
-                        <option value=""><-----Bana-----></option>
-                        <option value="1">Standard</option>
-                        <option value="2">Dubbel</option>
-                        <option value="3">Gräsbana</option>
-                        <option value="4">innomhusbana</option>
+                    <select name="people" id="people" placeholder="välj" required>
+                      
+                        <option value="Enkelbana">Standard</option>
+                        <option value="Dubbelbana">Dubbel</option>
+                        <option value="Gräsbana">Gräsbana</option>
+                        <option value="innomhusbana">innomhusbana</option>
                     </select>
                     <!-- <---this is the select option--->
                 </div>
@@ -74,7 +74,7 @@
                     <span>Mobiltelefon</span>
                     <input type="number" name="number" id="number" placeholder="07x xxx xx xx" required>
                 </div>
-                <div id="submit">
+                <div>
                     <input type="submit" value="Skicka" id="submit">
                 </div>
 
@@ -111,9 +111,8 @@
 
     </div>
   </section>
-  <!-- JS
+  
     <script src="script.js"></script>
--->
 </body>
 
 </html>
